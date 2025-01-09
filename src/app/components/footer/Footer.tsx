@@ -46,17 +46,6 @@ export default function Footer() {
               </li>
           </ul>
           </div>
-        <p className={styles.developed}>
-          Developed by{" "}
-          <a
-            href="https://matias-fandino.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            Matias Fandiño
-          </a>
-        </p>
       </div>
     </footer>
   );
