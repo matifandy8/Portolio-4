@@ -7,20 +7,20 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div>
-        <ul className={styles.links}>
-          <li className={styles.link}>
-            <Link href="/about">About</Link>
-          </li>
-          <li className={styles.link}>
-            <Link href="/projects">Projects</Link>
-          </li>
-          <li className={styles.link}>
-            <Link href="/blog">Blog</Link>
-          </li>
-          <li className={styles.link}>
-            <Link href="/contact">Contact</Link>
-          </li>
-        </ul>
+          <ul className={styles.links}>
+            <li className={styles.link}>
+              <Link href="/experience">Experience</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/projects">Projects</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/contact">Contact</Link>
+            </li>
+          </ul>
         </div>
         <div>
           <ul className={styles.socials}>
@@ -43,9 +43,9 @@ export default function Footer() {
               >
                 Github
               </a>
-              </li>
+            </li>
           </ul>
-          </div>
+        </div>
       </div>
     </footer>
   );

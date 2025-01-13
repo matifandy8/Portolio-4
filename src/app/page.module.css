@@ -1,11 +1,14 @@
 .page {
   display: grid;
-  grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
-  gap: 64px;
+  padding: 140px 0px;
+  font-family: 'Poppins', sans-serif; 
+  color: #333;
+  line-height: 1.5;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .main {
@@ -35,6 +38,63 @@
   font-weight: 600;
 }
 
+.presentation {
+  text-align: left;
+  display: flex;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.title span {
+  font-weight: 400;
+  color: #555;
+}
+
+.profileImage {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutme {
+  text-align: left;
+  width: 100%;
+  padding: 5vh 0rem;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: 400;
+  max-width: 800px;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.subtitle span {
+  font-weight: 400;
+  color: #666;
+}
+
+.title, .subtitle {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -52,11 +112,6 @@
 }
 
 @media (max-width: 600px) {
-  .page {
-    padding: 32px;
-    padding-bottom: 80px;
-  }
-
   .main {
     align-items: center;
   }
@@ -76,4 +131,16 @@
   .logo {
     filter: invert();
   }
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
 }
