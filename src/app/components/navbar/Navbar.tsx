@@ -23,16 +23,16 @@ export default function Navbar() {
                 </svg>MF</Link>
               </li>
               <li className={styles.link}>
-                <Link href="/experience">Experience</Link>
+                <Link href="#experience">Experience</Link>
               </li>
               <li className={styles.link}>
-                <Link href="/projects">Projects</Link>
+                <Link href="#projects">Projects</Link>
               </li>
               <li className={styles.link}>
-                <Link href="/blog">Blog</Link>
+                <Link href="#blog">Blog</Link>
               </li>
               <li className={styles.link}>
-                <Link href="/contact">Contact</Link>
+                <Link href="#contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -64,16 +64,16 @@ export default function Navbar() {
         </div>
         <ul className={styles.links_mobile}>
           <li className={styles.links_mobile}>
-            <Link href="/experience">Experience</Link>
+            <Link href="#experience">Experience</Link>
           </li>
           <li className={styles.links_mobile}>
-            <Link href="/projects">Projects</Link>
+            <Link href="#projects">Projects</Link>
           </li>
           <li className={styles.links_mobile}>
-            <Link href="/blog">Blog</Link>
+            <Link href="#blog">Blog</Link>
           </li>
           <li className={styles.links_mobile}>
-            <Link href="/contact">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </li>
 
         </ul>

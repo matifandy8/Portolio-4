@@ -1,5 +1,9 @@
 import styles from "./footer.module.css";
 import Link from "next/link";
+import github from "../../../../public/github.svg";
+import linkedin from "../../../../public/linkedin.svg";
+import Image from 'next/image'
+
 
 
 export default function Footer() {
@@ -31,7 +35,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className={styles.socialLink}
               >
-                Linkedin
+                <Image
+                  width={30}
+                  height={30}
+                  alt="linkedin icon"
+                  src={linkedin}
+                />
               </a>
             </li>
             <li className={styles.social}>
@@ -41,7 +50,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className={styles.socialLink}
               >
-                Github
+                <Image
+                  width={30}
+                  height={30}
+                  alt="github icon"
+                  src={github}
+                />
               </a>
             </li>
           </ul>
