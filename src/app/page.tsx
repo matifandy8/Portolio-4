@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
-import pc from "../../public/pc.svg";
-
+import folder from "../../public/folder.svg"
 
 
 export default function Home() {
@@ -60,20 +59,30 @@ export default function Home() {
       </section>
 
       <section id="projects" className={styles.projects}>
-        <h1>Here are some  of my recent projects.</h1>
+        <h1 className={styles.title}>Here are some of my recent projects.</h1>
         <div className={styles.projectsList}>
           <div className={styles.project}>
             <div className={styles.projectTitle}>
-              <h2>Portfolio</h2>
-              <Image src="/images/portfolio.png" width={200} height={200} alt="Portfolio" />
+              <h2>NeoBrutaismCSS</h2>
+              <Image src="/images/neobrutalism-project.webp" width={166} height={90} alt="Portfolio" />
             </div>
             <div className={styles.projectDescription}>
-              <p>This is my portfolio website, built with Next.js and Tailwind CSS.</p>
-              <a href="https://portfolio-4.vercel.app/" className={styles.projectLink}>Visit Portfolio</a>
-              <p>This project was built using Next.js, Tailwind CSS, and Vercel.</p>
-              <button>Learn More</button>
+              <p>CSS library that provides a variety of utility classes to help you style your website. This project was built using Sass.</p>
+              <details className={styles.projectLink}>
+                <summary> SEE MORE
+                  <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
+                <div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
+                    error saepe! Dolorem, quaerat sequi? Architecto veniam alias, vel
+                    modi corrupti dolores libero esse expedita illo possimus, vero, non
+                    cupiditate accusamus!
+                  </p>
+                </div>
+              </details>
             </div>
           </div>
+
         </div>
       </section>
     </div>

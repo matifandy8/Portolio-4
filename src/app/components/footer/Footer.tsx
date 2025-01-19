@@ -19,9 +19,6 @@ export default function Footer() {
               <Link href="/projects">Projects</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/blog">Blog</Link>
-            </li>
-            <li className={styles.link}>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
