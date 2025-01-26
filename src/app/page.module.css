@@ -86,13 +86,18 @@
 }
 
 .experience {
-  font-family: Arial, sans-serif;
   margin: 120px 20px;
   color: #333;
 }
 
 .experience h1 {
-  font-size: 3rem;
+  font-family: 'Pragati Narrow';
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+  line-height: 1.2;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -116,6 +121,7 @@
 }
 
 .timeline-item .content {
+  font-family: 'Lexend Zetta';
   background-color: #fff;
   padding: 15px;
   border-radius: 6px;
@@ -130,6 +136,7 @@
 }
 
 .content ul {
+  font-family: 'Lexend Zetta';
   list-style: none;
   padding-left: 20px;
   margin-bottom: 20px;
@@ -143,15 +150,13 @@
 } 
 
 .projectsList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 20px;
 }
 
 .project {
-  flex: 1 1 300px;
-  text-align: center;
+  text-align: left;
 }
 
 .projectTitle {
@@ -161,40 +166,45 @@
   gap: 10px;
 }
 
+.projectImage{
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .projectTitle h2 {
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 10px;
+  letter-spacing: -.04em;
+  line-height: 1.2;
 }
 
 .projectDescription {
-  font-size: 1.2rem;
+  font-family: 'Lexend Zetta';
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
-.projectLink summary {
+.projectLinkSummary{
+  font-family: 'Lexend Zetta';
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
   cursor: pointer;
-  font-weight: bold;
-  color: #333;
-  transition: color 0.3s ease;
+  padding-top: 20px;
 }
 
-.projectLink summary:hover {
+.projectLinkSummary:hover {
   color: #007bff;
   text-decoration: underline;
   text-underline-offset: 4px;
   transition: color 0.3s ease;
 }
-.projectLink details {
-  margin-top: 10px;
-}
 
-.projectLink details p {
-  font-size: 1.2rem;
-  line-height: 1.5;
+.projectLinkDetails{
+  font-family: 'Lexend Zetta';
+  margin-top: 10px;
 }
 
 
@@ -268,5 +278,70 @@
     color: #666;
     text-align: center; 
   }
+  .experience{
+    margin: 120px 20px;
+  }
+  .experience h1{
+    font-size: 2.5rem;
+  }
+  .timeline{
+    position: relative;
+  }
+  .timeline-item{
+    position: relative;
+  }
+  .timeline-item .content{
+    font-family: 'Lexend Zetta';
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content strong{
+    font-size: 1.5rem;
+  }
+  .content ul{
+    font-family: 'Lexend Zetta';
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  .projects{
+    margin: 120px 20px;
+  }
+  .projectsList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .projectsList{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .projectTitle{
+    flex-direction: column;
+  }
+
+  .projectTitle h1{
+    font-size: 2.5rem;
+  }
+  .projectTitle h2{
+    font-size: 1.5rem;
+  }
+  .projectDescription{
+    font-size: 1rem;
+  }
+  .projectLink summary{
+    font-size: 1rem;
+  }
+  .projectLink details p{
+    font-size: 1rem;
+  }
+  
 
 }

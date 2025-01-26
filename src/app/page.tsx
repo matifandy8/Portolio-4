@@ -41,7 +41,7 @@ export default function Home() {
             <div className={styles.content}>
               <strong>React.js</strong>
               <ul>
-                <li>Worked on a project for an NGO using frontend development with React and agile methodologies (Scrum).</li>
+                <li>interactive user interfaces. The project followed agile methodologies (Scrum), focusing on iterative development and team collaboration to address real-world challenges. Contributed to a user-friendly and functional solution while enhancing skills in version control, peer reviews, and task prioritization.</li>
               </ul>
             </div>
           </div>
@@ -50,8 +50,8 @@ export default function Home() {
             <div className={styles.content}>
               <strong>Web Developer</strong>
               <ul>
-                <li>Using the Voxy platform for learning English and live classes with natives.</li>
-                <li>Development and improvement of transversal skills such as teamwork, self-regulation, determination, etc.</li>
+                <li>Used the Voxy platform for learning English, enhancing language skills through interactive lessons and live classes with native speakers.</li>
+                <li>Focused on the development and improvement of transversal skills such as teamwork, self-regulation, and determination, fostering a growth mindset and adaptability in diverse environments.</li>
               </ul>
             </div>
           </div>
@@ -64,15 +64,36 @@ export default function Home() {
           <div className={styles.project}>
             <div className={styles.projectTitle}>
               <h2>NeoBrutaismCSS</h2>
-              <Image src="/images/neobrutalism-project.webp" width={166} height={90} alt="Portfolio" />
+              <Image className={styles.projectImage} src="/images/neobrutalism-project.webp" width={266} height={180} alt="NeoBrutaismCSS Project Image" />
             </div>
             <div className={styles.projectDescription}>
               <p>CSS library that provides a variety of utility classes to help you style your website. This project was built using Sass.</p>
               <details className={styles.projectLink}>
-                <summary> SEE MORE
+                <summary className={styles.projectLinkSummary}> SEE MORE
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
-                <div>
-                  <p>
+                <div className={styles.projectLinkDetails}>
+                  <p className={styles.projectLinkDetailsP}>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
+                    error saepe! Dolorem, quaerat sequi? Architecto veniam alias, vel
+                    modi corrupti dolores libero esse expedita illo possimus, vero, non
+                    cupiditate accusamus!
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+          <div className={styles.project}>
+            <div className={styles.projectTitle}>
+              <h2>CleanPic</h2>
+              <Image className={styles.projectImage} src="/images/cleanpic.png" width={266} height={180} alt="CleanPic Project Image" />
+            </div>
+            <div className={styles.projectDescription}>
+              <p> A simple and easy-to-use image compression tool that allows you to compress images without losing quality. This project was built using React.js and Next.js.</p>
+              <details className={styles.projectLink}>
+                <summary className={styles.projectLinkSummary}> SEE MORE
+                  <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
+                <div className={styles.projectLinkDetails}>
+                  <p className={styles.projectLinkDetailsP}>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
                     error saepe! Dolorem, quaerat sequi? Architecto veniam alias, vel
                     modi corrupti dolores libero esse expedita illo possimus, vero, non

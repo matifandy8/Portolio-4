@@ -13,13 +13,13 @@ export default function Footer() {
         <div>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/experience">Experience</Link>
+              <Link href="#experience">Experience</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/projects">Projects</Link>
+              <Link href="#projects">Projects</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/contact">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -33,8 +33,8 @@ export default function Footer() {
                 className={styles.socialLink}
               >
                 <Image
-                  width={30}
-                  height={30}
+                  width={40}
+                  height={40}
                   alt="linkedin icon"
                   src={linkedin}
                 />
@@ -48,8 +48,8 @@ export default function Footer() {
                 className={styles.socialLink}
               >
                 <Image
-                  width={30}
-                  height={30}
+                  width={40}
+                  height={40}
                   alt="github icon"
                   src={github}
                 />
