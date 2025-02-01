@@ -2,7 +2,7 @@ import styles from "./footer.module.css";
 import Link from "next/link";
 import github from "../../../../public/github.svg";
 import linkedin from "../../../../public/linkedin.svg";
-import Image from 'next/image'
+import Image from "next/image";
 
 
 
