@@ -1,0 +1,55 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #000000;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .menuItem {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.3s;
+  }
+  
+  .menuItem:hover {
+    background: #f0f0f0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

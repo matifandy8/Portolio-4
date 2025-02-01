@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
+import Dropdown from "../dropdown/Dropdown";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,9 @@ export default function Navbar() {
               </li>
               <li className={styles.link}>
                 <Link href="#contact">Contact</Link>
+              </li>
+              <li className={styles.link}>
+              <Dropdown />
               </li>
             </ul>
           </div>
@@ -69,7 +73,9 @@ export default function Navbar() {
           <li className={styles.links_mobile}>
             <Link href="#contact">Contact</Link>
           </li>
-
+          <li className={styles.links_mobile}>
+              <Dropdown />
+            </li>
         </ul>
       </div>
     </>
