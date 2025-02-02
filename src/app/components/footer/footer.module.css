@@ -1,9 +1,4 @@
   
-:root {
-    --color-primary: #000000;
-    --color-secondary: #5e5e5e;
-}
-
 .footer {
     width: 1200px;
     max-width: 1200px;
@@ -18,14 +13,14 @@
 }
 
 .link {
-    color: var(--color-primary);
+    color: #000000;
     text-decoration: none;
     font-size: 1.3rem;
 }
 
 
 .logoText {
-    color: var(--color-primary);
+    color: #000000;
     font-size: 1.3rem;
     margin-right: 10px;
 }
@@ -51,7 +46,7 @@
 }
 
 .socialLink {
-    color: var(--color-secondary);
+    color: #5e5e5e;
     text-decoration: none;
     font-size: 1.3rem;  
 }
@@ -64,12 +59,12 @@
     margin-right: 10px;
     margin-left: 10px;
     font-size: 1.3rem;
-    color: var(--color-secondary);
+    color: #5e5e5e;
     text-decoration: none;
 }
 
 .link:hover {
-    color: var(--color-primary);
+    color: #000000;
 }
 
 @media (max-width: 765px) {

@@ -4,7 +4,7 @@
   justify-items: center;
   min-height: 100svh;
   padding: 180px 0px;
-  font-family: 'Poppins', sans-serif; 
+  font-family: "Poppins", sans-serif; 
   color: #333;
   line-height: 1.5;
   max-width: 1200px;
@@ -91,7 +91,7 @@
 }
 
 .experience h1 {
-  font-family: 'Pragati Narrow';
+  font-family: "Pragati Narrow";
   font-size: 4.5rem;
   font-weight: 700;
   margin: 0;
@@ -121,7 +121,7 @@
 }
 
 .timeline-item .content {
-  font-family: 'Lexend Zetta';
+  font-family: "Lexend Zetta";
   background-color: #fff;
   padding: 15px;
   border-radius: 6px;
@@ -136,7 +136,7 @@
 }
 
 .content ul {
-  font-family: 'Lexend Zetta';
+  font-family: "Lexend Zetta";
   list-style: none;
   padding-left: 20px;
   margin-bottom: 20px;
@@ -180,13 +180,13 @@
 }
 
 .projectDescription {
-  font-family: 'Lexend Zetta';
+  font-family: "Lexend Zetta";
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .projectLinkSummary{
-  font-family: 'Lexend Zetta';
+  font-family: "Lexend Zetta";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +203,7 @@
 }
 
 .projectLinkDetails{
-  font-family: 'Lexend Zetta';
+  font-family: "Lexend Zetta";
   margin-top: 10px;
 }
 
@@ -291,7 +291,7 @@
     position: relative;
   }
   .timeline-item .content{
-    font-family: 'Lexend Zetta';
+    font-family: "Lexend Zetta";
     background-color: #fff;
     padding: 15px;
     border-radius: 6px;
@@ -304,7 +304,7 @@
     font-size: 1.5rem;
   }
   .content ul{
-    font-family: 'Lexend Zetta';
+    font-family: "Lexend Zetta";
     list-style: none;
     padding-left: 20px;
     margin-bottom: 20px;

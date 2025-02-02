@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Image from 'next/image'
+import Image from "next/image";
 import folder from "../../public/folder.svg"
 
 
@@ -9,7 +9,7 @@ export default function Home() {
       <section className={styles.presentation}>
         <div className={styles.aboutme}>
           <h1 className={styles.title}>
-            Hi, I'm Matias — a Frontend Developer Crafting Experiences That Inspire
+            Hi, I&apos;m Matias — a Frontend Developer Crafting Experiences That Inspire
           </h1>
           <h2 className={styles.subtitle}>
             Passionate About Designing Stunning and Functional Web Interfaces
@@ -19,7 +19,7 @@ export default function Home() {
           src="/images/foto-perfil-.jpg"
           width={230}
           height={300}
-          alt="Matias' Profile Picture"
+          alt="Matias Profile Picture"
           className={styles.profileImage}
         />
       </section>
