@@ -48,7 +48,7 @@ export default function Navbar() {
                 </svg>MF</Link>
               </li>
             </ul>
-            <button className={styles.hamburger} onClick={toggleMenu}>
+            <button className={styles.hamburger} onClick={toggleMenu} aria-label="Open navigation menu">
               <span className={styles.bar}></span>
               <span className={styles.bar}></span>
               <span className={styles.bar}></span>
