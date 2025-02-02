@@ -37,19 +37,23 @@ export default function Home() {
             </div>
           </div>
           <div className={`${styles.timelineItem}`}>
-            <div className={styles.date}>2021 - Alkemy</div>
+            <div className={styles.date}>2021 - JULY TO SEPTEMBER</div>
             <div className={styles.content}>
-              <strong>React.js</strong>
+              <strong>Alkemy - Course</strong>
               <ul>
                 <li>interactive user interfaces. The project followed agile methodologies (Scrum), focusing on iterative development and team collaboration to address real-world challenges. Contributed to a user-friendly and functional solution while enhancing skills in version control, peer reviews, and task prioritization.</li>
+                <li>
+                  Improve and practice real projects with Reactjs
+                </li>
               </ul>
             </div>
           </div>
           <div className={`${styles.timelineItem}`}>
-            <div className={styles.date}>2020 - Jóvenes a Programar</div>
+            <div className={styles.date}>2020 - ABRIL TO DECEMBER</div>
             <div className={styles.content}>
-              <strong>Web Developer</strong>
+              <strong>Jóvenes a Programar - Course</strong>
               <ul>
+                <li>Learn Web developer technoligies as javascript, HTML, CSS</li>
                 <li>Used the Voxy platform for learning English, enhancing language skills through interactive lessons and live classes with native speakers.</li>
                 <li>Focused on the development and improvement of transversal skills such as teamwork, self-regulation, and determination, fostering a growth mindset and adaptability in diverse environments.</li>
               </ul>
@@ -102,6 +106,13 @@ export default function Home() {
                 </div>
               </details>
             </div>
+          </div>
+
+          <div className={styles.contact}>
+            <h1 className={styles.title}>Contact Me</h1>
+            <p className={styles.subtitle}>You can contact me at <a href="mailto:matiasfandino@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>matiasfandino@gmail.com</a></p>
+            <p className={styles.subtitle}>Chat with me on <a href="https://www.linkedin.com/in/matias-fandino/" target="_blank" rel="noopener noreferrer" className={styles.link}>Linkedin</a></p>
+            <p className={styles.subtitle}>or Chat with me AI chatbot <a href="#" target="_blank" rel="noopener noreferrer" className={styles.link}>Chatbot</a></p>
           </div>
 
         </div>

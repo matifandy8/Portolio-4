@@ -2,10 +2,10 @@ import { useState } from "react";
 import styles from "./dropdown.module.css"; 
 
 const portfolios = [
-  { name: "Portfolio 2024", url: "https://matias-fandino.vercel.app/" },
-//   { name: "Portfolio 2023", url: "https://matias-fandino.vercel.app/" },
-  { name: "Portfolio 2022", url: "https://portfolio-terminal.vercel.app/" },
-  { name: "Portfolio 2021", url: "https://matifandy8.github.io/Portfolio-Page/" },
+  { name: "2024", url: "https://matias-fandino.vercel.app/" },
+//   { name: "2023", url: "https://matias-fandino.vercel.app/" },
+  { name: "2022", url: "https://portfolio-terminal.vercel.app/" },
+  { name: "2021", url: "https://matifandy8.github.io/Portfolio-Page/" },
 ];
 
 export default function Dropdown() {
@@ -14,7 +14,7 @@ export default function Dropdown() {
   return (
     <div className={styles.dropdown}>
       <button onClick={() => setIsOpen(!isOpen)} className={styles.button}>
-        Old Portfolios
+        OLD PORTFOLIOS
       </button>
 
       {isOpen && (

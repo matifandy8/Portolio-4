@@ -4,7 +4,7 @@
   justify-items: center;
   min-height: 100svh;
   padding: 180px 0px;
-  font-family: "Poppins", sans-serif; 
+  font-family: "Poppins", sans-serif;
   color: #333;
   line-height: 1.5;
   max-width: 1200px;
@@ -147,7 +147,7 @@
 .projects {
   margin: 120px 20px;
   color: #333;
-} 
+}
 
 .projectsList {
   display: grid;
@@ -166,7 +166,7 @@
   gap: 10px;
 }
 
-.projectImage{
+.projectImage {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -185,7 +185,7 @@
   line-height: 1.5;
 }
 
-.projectLinkSummary{
+.projectLinkSummary {
   font-family: "Lexend Zetta";
   display: flex;
   align-items: center;
@@ -202,9 +202,47 @@
   transition: color 0.3s ease;
 }
 
-.projectLinkDetails{
+.projectLinkDetails {
   font-family: "Lexend Zetta";
   margin-top: 10px;
+}
+
+.contact {
+  margin: 120px 20px;
+  color: #333;
+}
+
+.contact h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+
+
+.subtitle {
+  font-family: "Lexend Zetta";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0b519c;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 
@@ -259,7 +297,7 @@
 
 
 @media (max-width: 768px) {
-  .presentation{
+  .presentation {
     flex-direction: column;
     padding: 0px 30px;
     gap: 20px;
@@ -270,27 +308,32 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    text-align: center; 
+    text-align: center;
   }
 
   .subtitle {
     font-size: 1.5rem;
     color: #666;
-    text-align: center; 
+    text-align: center;
   }
-  .experience{
+
+  .experience {
     margin: 120px 20px;
   }
-  .experience h1{
+
+  .experience h1 {
     font-size: 2.5rem;
   }
-  .timeline{
+
+  .timeline {
     position: relative;
   }
-  .timeline-item{
+
+  .timeline-item {
     position: relative;
   }
-  .timeline-item .content{
+
+  .timeline-item .content {
     font-family: "Lexend Zetta";
     background-color: #fff;
     padding: 15px;
@@ -300,48 +343,61 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .content strong{
+
+  .content strong {
     font-size: 1.5rem;
   }
-  .content ul{
+
+  .content ul {
     font-family: "Lexend Zetta";
     list-style: none;
     padding-left: 20px;
     margin-bottom: 20px;
     font-size: 1.2rem;
   }
-  .projects{
+
+  .projects {
     margin: 120px 20px;
   }
-  .projectsList{
+
+  .projectsList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
-  
-  .projectsList{
+
+  .projectsList {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
-  .projectTitle{
+  .projectTitle {
     flex-direction: column;
   }
 
-  .projectTitle h1{
+  .projectTitle h1 {
     font-size: 2.5rem;
   }
-  .projectTitle h2{
+
+  .projectTitle h2 {
     font-size: 1.5rem;
   }
-  .projectDescription{
+
+  .projectDescription {
     font-size: 1rem;
   }
-  .projectLink summary{
+
+  .projectLink summary {
     font-size: 1rem;
   }
-  .projectLink details p{
-    font-size: 1rem;
+
+  .projectLink details p {
+    font-size: 2rem;
   }
-  
+
+  .contact h1 {
+    font-size: 2.5rem;
+  }
+
+
 
 }
