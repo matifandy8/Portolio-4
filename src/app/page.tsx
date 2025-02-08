@@ -71,16 +71,14 @@ export default function Home() {
               <Image className={styles.projectImage} src="/images/neobrutalism-project.webp" width={266} height={180} alt="NeoBrutaismCSS Project Image" />
             </div>
             <div className={styles.projectDescription}>
-              <p>CSS library that provides a variety of utility classes to help you style your website. This project was built using Sass.</p>
+              <p>CSS library that provides a variety of utility classes to help you style your website.</p>
               <details className={styles.projectLink}>
                 <summary className={styles.projectLinkSummary}> SEE MORE
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
                 <div className={styles.projectLinkDetails}>
                   <p className={styles.projectLinkDetailsP}>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
-                    error saepe! Dolorem, quaerat sequi? Architecto veniam alias, vel
-                    modi corrupti dolores libero esse expedita illo possimus, vero, non
-                    cupiditate accusamus!
+                    <a href="https://github.com/matifandy8/NeoBrutalismCSS" target="_blank" rel="noreferrer">Github</a>
+                    <a href="https://matifandy8.github.io/NeoBrutalismCSS/" target="_blank" rel="noreferrer">Demo</a>
                   </p>
                 </div>
               </details>
@@ -92,16 +90,36 @@ export default function Home() {
               <Image className={styles.projectImage} src="/images/cleanpic.png" width={266} height={180} alt="CleanPic Project Image" />
             </div>
             <div className={styles.projectDescription}>
-              <p> A simple and easy-to-use image compression tool that allows you to compress images without losing quality. This project was built using React.js and Next.js.</p>
+              <p> A simple and easy-to-use image compression tool that allows you to compress images without losing quality.</p>
               <details className={styles.projectLink}>
                 <summary className={styles.projectLinkSummary}> SEE MORE
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
                 <div className={styles.projectLinkDetails}>
                   <p className={styles.projectLinkDetailsP}>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
-                    error saepe! Dolorem, quaerat sequi? Architecto veniam alias, vel
-                    modi corrupti dolores libero esse expedita illo possimus, vero, non
-                    cupiditate accusamus!
+                    This project was built using React.js and Next.js. 
+                    <br/>                    
+                    <a href="https://github.com/matifandy8/cleanpic" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
+                    <a href="https://cleanpic.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+          <div className={styles.project}>
+            <div className={styles.projectTitle}>
+              <h2>Portfolio bot</h2>
+              <Image className={styles.projectImage} src="/images/portfolio-bot.png" width={266} height={180} alt="NeoBrutaismCSS Project Image" />
+            </div>
+            <div className={styles.projectDescription}>
+              <p>Portfolio bot that tell you about me and my projects and experiences. Still in development.</p>
+              <details className={styles.projectLink}>
+                <summary className={styles.projectLinkSummary}> SEE MORE
+                  <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
+                <div className={styles.projectLinkDetails}>
+                  <p className={styles.projectLinkDetailsP}>
+                    This project was built using Next.js, Tailwindcss, HuggingFace.
+                    <br/>
+                    <a href="https://github.com/matifandy8/MyPortfolioBot" target="_blank" rel="noreferrer">Github</a>
                   </p>
                 </div>
               </details>
@@ -110,7 +128,7 @@ export default function Home() {
 
           <div className={styles.contact}>
             <h1 className={styles.title}>Contact Me</h1>
-            <p className={styles.subtitle}>You can contact me at <a href="mailto:matiasfandino@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>matiasfandino@gmail.com</a></p>
+            <p className={styles.subtitle}>You can contact me at <a href="mailto:matifandy@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>matifandy@gmail.com</a></p>
             <p className={styles.subtitle}>Chat with me on <a href="https://www.linkedin.com/in/matias-fandino/" target="_blank" rel="noopener noreferrer" className={styles.link}>Linkedin</a></p>
             <p className={styles.subtitle}>or Chat with me AI chatbot <a href="#" target="_blank" rel="noopener noreferrer" className={styles.link}>Chatbot</a></p>
           </div>
