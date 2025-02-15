@@ -77,8 +77,8 @@ export default function Home() {
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
                 <div className={styles.projectLinkDetails}>
                   <p className={styles.projectLinkDetailsP}>
-                    <a href="https://github.com/matifandy8/NeoBrutalismCSS" target="_blank" rel="noreferrer">Github</a>
-                    <a href="https://matifandy8.github.io/NeoBrutalismCSS/" target="_blank" rel="noreferrer">Demo</a>
+                    <a href="https://github.com/matifandy8/NeoBrutalismCSS" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
+                    <a href="https://matifandy8.github.io/NeoBrutalismCSS/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
                   </p>
                 </div>
               </details>
@@ -119,7 +119,8 @@ export default function Home() {
                   <p className={styles.projectLinkDetailsP}>
                     This project was built using Next.js, Tailwindcss, HuggingFace.
                     <br/>
-                    <a href="https://github.com/matifandy8/MyPortfolioBot" target="_blank" rel="noreferrer">Github</a>
+                    <a href="https://github.com/matifandy8/MyPortfolioBot" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
+                    <a href="https://my-portfolio-bot.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
                   </p>
                 </div>
               </details>
