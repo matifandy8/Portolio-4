@@ -27,12 +27,12 @@ export default function Home() {
         <h1>Experience</h1>
         <div className={styles.timeline}>
           <div className={`${styles.timelineItem}`}>
-            <div className={styles.date}>January 2022 - Present</div>
+            <div className={styles.date}>January 2022 - April 2025</div>
             <div className={styles.content}>
               <strong>Hogarth - Frontend Developer</strong>
               <ul>
-                <li>Developed and coded responsive email templates for important clients using HTML, CSS, and Vue/Next.js.</li>
-                <li>Collaborated frequently with project managers and team members to ensure timely delivery of work and stay up-to-date on any changes or updates to the project scope.</li>
+                <li>Developed 50+ responsive email templates for important client using HTML and CSS, ensuring total render accuracy across clients (Gmail, Outlook, Apple Mail).</li>
+                <li>Built dynamic, SEO-optimized web pages using Vue.js and Next.js, enhancing site performance more than 90% (Lighthouse scores).</li>
               </ul>
             </div>
           </div>
@@ -105,33 +105,11 @@ export default function Home() {
               </details>
             </div>
           </div>
-          <div className={styles.project}>
-            <div className={styles.projectTitle}>
-              <h2>Portfolio bot</h2>
-              <Image className={styles.projectImage} src="/images/portfolio-bot.png" width={266} height={180} alt="NeoBrutaismCSS Project Image" />
-            </div>
-            <div className={styles.projectDescription}>
-              <p>Portfolio bot that tell you about me and my projects and experiences. Still in development.</p>
-              <details className={styles.projectLink}>
-                <summary className={styles.projectLinkSummary}> SEE MORE
-                  <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
-                <div className={styles.projectLinkDetails}>
-                  <p className={styles.projectLinkDetailsP}>
-                    This project was built using Next.js, Tailwindcss, HuggingFace.
-                    <br/>
-                    <a href="https://github.com/matifandy8/MyPortfolioBot" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
-                    <a href="https://my-portfolio-bot.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
-                  </p>
-                </div>
-              </details>
-            </div>
-          </div>
 
           <div className={styles.contact}>
             <h1 className={styles.title}>Contact Me</h1>
             <p className={styles.subtitle}>You can contact me at <a href="mailto:matifandy@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>matifandy@gmail.com</a></p>
             <p className={styles.subtitle}>Chat with me on <a href="https://www.linkedin.com/in/matias-fandino/" target="_blank" rel="noopener noreferrer" className={styles.link}>Linkedin</a></p>
-            <p className={styles.subtitle}>or Chat with me AI chatbot <a href="#" target="_blank" rel="noopener noreferrer" className={styles.link}>Chatbot</a></p>
           </div>
 
         </div>
