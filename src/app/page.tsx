@@ -65,18 +65,70 @@ export default function Home() {
       <section id="projects" className={styles.projects}>
         <h1 className={styles.title}>Here are some of my recent projects.</h1>
         <div className={styles.projectsList}>
+        <div className={styles.project}>
+        <div className={styles.projectTitle}>
+          <h2>Destino Uruguay</h2>
+          <Image
+            className={styles.projectImage}
+            src="/images/destinouruguay.png"
+            width={266}
+            height={180}
+            alt="Destino Uruguay Project Screenshot"
+          />
+        </div>
+        <div className={styles.projectDescription}>
+          <p>
+          A web platform to discover cultural events, festivals, and travel destinations across Uruguay. 
+          It helps locals and tourists stay updated with curated content by automating data collection 
+          from official sources. The site features real-time updates, blog posts with information about city's and a 
+          user-friendly interface built for both desktop and mobile. <br /> Built with Next.js, TypeScript, Cheerio, and Nodemailer. 
+          </p>
+          <details className={styles.projectLink}>
+            <summary className={styles.projectLinkSummary}>
+              SEE MORE
+              <Image src={folder} width={20} height={20} alt="Folder icon" />
+            </summary>
+            <div className={styles.projectLinkDetails}>
+              <p className={styles.projectLinkDetailsP}>
+                 <strong>What I learned:</strong> Gained hands-on experience with cron jobs using GitHub Actions to run scripts in a Linux environment. Improved my skills in web scraping, asynchronous programming, and automating data workflows. Strengthened my understanding of API handling, data flow architecture, and deploying full-stack apps with serverless functions.
+                 <br />
+                <a
+                  href="https://github.com/matifandy8/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.link}
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://destinouruguay.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.link}
+                >
+                  Live Demo
+                </a>
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+
           <div className={styles.project}>
             <div className={styles.projectTitle}>
               <h2>NeoBrutaismCSS</h2>
               <Image className={styles.projectImage} src="/images/neobrutalism-project.webp" width={266} height={180} alt="NeoBrutaismCSS Project Image" />
             </div>
             <div className={styles.projectDescription}>
-              <p>CSS library that provides a variety of utility classes to help you style your website.</p>
+              <p>CSS library that provides a variety of utility classes to help you style your website. Library inspired by the Neo-Brutalist design trend. It provides a bold and consistent visual style out-of-the-box for developers who want fast and opinionated UI styling with zero JavaScript. <br /> Built with Html, CSS and Sass. </p>
+
               <details className={styles.projectLink}>
                 <summary className={styles.projectLinkSummary}> SEE MORE
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
                 <div className={styles.projectLinkDetails}>
                   <p className={styles.projectLinkDetailsP}>
+                  <strong>What I learned:</strong> I learned how to create and publish a library to the NPM registry, including the required configuration (package.json, README, versioning, npmignore, etc.). I also gained experience with semantic versioning, testing package builds locally, and using the npm CLI like a boss.
+                  <br />
                     <a href="https://github.com/matifandy8/NeoBrutalismCSS" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
                     <a href="https://matifandy8.github.io/NeoBrutalismCSS/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
                   </p>
@@ -90,13 +142,14 @@ export default function Home() {
               <Image className={styles.projectImage} src="/images/cleanpic.png" width={266} height={180} alt="CleanPic Project Image" />
             </div>
             <div className={styles.projectDescription}>
-              <p> A simple and easy-to-use image compression tool that allows you to compress images without losing quality.</p>
+              <p> A simple and easy-to-use image compression tool that allows you to compress images without losing quality. <br /> Built with React.js and Next.js.</p>
               <details className={styles.projectLink}>
                 <summary className={styles.projectLinkSummary}> SEE MORE
                   <Image src={folder} width={20} height={20} alt="folder icon" /></summary>
                 <div className={styles.projectLinkDetails}>
                   <p className={styles.projectLinkDetailsP}>
-                    This project was built using React.js and Next.js. 
+                  <strong>What I learned:</strong> I gained experience working with image optimization techniques on the frontend, including using the HTML5 File API, manipulating files in the browser, and integrating compression libraries. I also improved my skills in handling file uploads, managing blob URLs, and enhancing performance in client-side apps.
+                  <br />
                     <br/>                    
                     <a href="https://github.com/matifandy8/cleanpic" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
                     <a href="https://cleanpic.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Demo</a>
@@ -106,7 +159,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.contact}>
+          <div className={styles.contact} id="contact">
             <h1 className={styles.title}>Contact Me</h1>
             <p className={styles.subtitle}>You can contact me at <a href="mailto:matifandy@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.link}>matifandy@gmail.com</a></p>
             <p className={styles.subtitle}>Chat with me on <a href="https://www.linkedin.com/in/matias-fandino/" target="_blank" rel="noopener noreferrer" className={styles.link}>Linkedin</a></p>

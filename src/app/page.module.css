@@ -53,7 +53,7 @@
   text-transform: uppercase;
   letter-spacing: -0.04em;
   line-height: 1.2;
-  padding-bottom: 30px;
+  padding-bottom: 130px;
 }
 
 .title span {
@@ -156,6 +156,7 @@
 }
 
 .project {
+  margin: 80px 0;
   text-align: left;
 }
 
