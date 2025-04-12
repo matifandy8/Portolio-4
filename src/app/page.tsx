@@ -80,7 +80,7 @@ export default function Home() {
           <p>
           A web platform to discover cultural events, festivals, and travel destinations across Uruguay. 
           It helps locals and tourists stay updated with curated content by automating data collection 
-          from official sources. The site features real-time updates, blog posts with information about city's and a 
+          from official sources. The site features real-time updates, blog posts with information about city&apos;s and a 
           user-friendly interface built for both desktop and mobile. <br /> Built with Next.js, TypeScript, Cheerio, and Nodemailer. 
           </p>
           <details className={styles.projectLink}>
