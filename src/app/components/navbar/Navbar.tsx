@@ -24,13 +24,13 @@ export default function Navbar() {
                 </svg>MF</Link>
               </li>
               <li className={styles.link}>
-                <Link href="#experience">Experience</Link>
+                <a href="#experience">Experience</a>
               </li>
               <li className={styles.link}>
-                <Link href="#projects">Projects</Link>
+                <a href="#projects">Projects</a>
               </li>
               <li className={styles.link}>
-                <Link href="#contact">Contact</Link>
+                <a href="#contact">Contact</a>
               </li>
               <li className={styles.link}>
               <Dropdown />
