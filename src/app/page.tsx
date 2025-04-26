@@ -12,7 +12,7 @@ export default function Home() {
             Hi, I&apos;m Matias — Frontend Developer
           </h1>
           <h2 className={styles.subtitle}>
-            I'm passionate about creating user-friendly and visually appealing web applications. Constant learning is at the core of my journey.
+            I&apos;m passionate about creating user-friendly and visually appealing web applications. Constant learning is at the core of my journey.
           </h2>
         </div>
         <Image
