@@ -41,7 +41,7 @@ export default function Home() {
             <div className={styles.content}>
               <strong>Alkemy - Course</strong>
               <ul>
-                <li>interactive user interfaces. The project followed agile methodologies (Scrum), focusing on iterative development and team collaboration to address real-world challenges. Contributed to a user-friendly and functional solution while enhancing skills in version control, peer reviews, and task prioritization.</li>
+                <li>The Course followed agile methodologies (Scrum), focusing on iterative development and team collaboration to address real-world challenges. Contributed to a user-friendly and functional solution while enhancing skills in version control, peer reviews, and task prioritization.</li>
                 <li>
                   Improve and practice real projects with Reactjs
                 </li>
@@ -53,7 +53,7 @@ export default function Home() {
             <div className={styles.content}>
               <strong>Jóvenes a Programar - Course</strong>
               <ul>
-                <li>Learn Web developer technoligies as javascript, HTML, CSS</li>
+                <li>Learn Web developer technoligies as javascript, HTML, CSS, Javascript</li>
                 <li>Used the Voxy platform for learning English, enhancing language skills through interactive lessons and live classes with native speakers.</li>
                 <li>Focused on the development and improvement of transversal skills such as teamwork, self-regulation, and determination, fostering a growth mindset and adaptability in diverse environments.</li>
               </ul>
@@ -88,8 +88,8 @@ export default function Home() {
                   <strong>What I learned:</strong> I learned how to use Cheerio to scrape data from websites,
                   how to use Nodemailer to send emails, and how to use Next.js to create a dynamic web application. <br />
                   I also learned how to use TypeScript to create a type-safe application, and how to use GitHub Actions to automate the deployment process. <br />
-                  <a href="https://github.com/MatiasFandino/destino-uruguay" target="_blank" rel="noreferrer" className={styles.link}>GitHub</a>
-                  <a href="https://destino-uruguay.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Live Demo</a>
+                  <a href="https://github.com/matifandy8/destinouruguay" target="_blank" rel="noreferrer" className={styles.link}>GitHub</a>
+                  <a href="https://destinouruguay.vercel.app/" target="_blank" rel="noreferrer" className={styles.link}>Live Demo</a>
                 </p>
               </AnimatedDetails>
             </div>
