@@ -106,7 +106,7 @@ export default function Home() {
                 <p className={styles.projectLinkDetailsP}>
                   <strong>What I learned:</strong> I learned how to create and publish a library to the NPM registry, including the required configuration (package.json, README, versioning, npmignore, etc.). I also gained experience with semantic versioning, testing package builds locally, and using the npm CLI like a boss.<br />
                   <a href="https://github.com/matifandy8/NeoBrutalismCSS" target="_blank" rel="noreferrer" className={styles.link}>Github</a>
-                  <a href="https://matifandy8.github.io/NeoBrutalismCSS/" target="_blank" rel="noreferrer" className={styles.link}>Live Demo</a>
+                  <a href="https://matifandy8.github.io/NeoBrutalismCSS/docs/index.html" target="_blank" rel="noreferrer" className={styles.link}>Live Demo</a>
                 </p>
               </AnimatedDetails>
             </div>
